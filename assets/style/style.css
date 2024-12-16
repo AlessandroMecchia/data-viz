@@ -6,7 +6,7 @@ html {
 }
 body {
 	font-family: Arial, sans-serif;
-	font-size: 19px; /* Dimensione di default leggibile */
+	font-size: 20px; /* Dimensione di default leggibile */
 	line-height: 1.6; /* Spaziatura tra le righe per migliorare la leggibilità */
 	color: #141414; /* Un colore grigio scuro per il testo */
 	background-color: #f9f9f9; /* Sfondo chiaro per contrasto */
@@ -25,9 +25,6 @@ body {
 hr{
 	opacity: 0.2;
 	margin:1em 0 1em 0;
-}
-figure{
-	margin: 0;
 }
 img{
 	max-width: 100%;
@@ -61,7 +58,7 @@ header, article, footer section {
 }
 header {
 	margin-top: 3rem;
-	margin-bottom: 7rem;
+	margin-bottom: 4rem;
 }
 .go_home a:hover{
 	text-decoration: none;
@@ -92,23 +89,6 @@ figure{
 	border:  none;
 	max-width: 100%;
 	height: auto;
-}
-.download {
-    display: flex;
-    justify-content: space-between; /* Pushes links to opposite sides */
-    align-items: center; /* Aligns items vertically */
-    margin: 2rem 0; /* Adjust spacing as needed */
-}
-
-.download_big {
-    margin: 2rem 25%; /* Adjust this percentage for larger or smaller spacing */
-}
-
-.download_small {
-    display: flex;
-    justify-content: space-between; /* Keeps links on opposite sides */
-    align-items: center; /* Aligns items vertically */
-    margin: 2rem 5%; /* Smaller margin for compact designs */
 }
 .container {
 	display: flex;
@@ -184,9 +164,6 @@ ul{
 	width: 200px;
 	display: inline-block;
 }
-#abstract{
-	margin-bottom: 2rem;
-}
 figcaption{
 	padding: 0;
 }
@@ -200,6 +177,7 @@ figcaption{
 	background-color: #f3f2f2;
 	color: #0F6DBF;
 	padding: 1rem;
+	margin-bottom: 5rem;
 }
 #abstract p {
 	font-style: normal;
@@ -207,11 +185,18 @@ figcaption{
 	font-size: 21px;
 	line-height: 1.2;
 }
+.download {
+	display: flex; /* Applica Flexbox al contenitore */
+	gap: 15em; /* Spazio tra i link */
+}
+
 .download a {
 	text-decoration: underline;
 	color: gray;
+	margin-bottom: 4em;
 }
-.download a:hover {  
+
+.download a:hover {
 	color: black;
 }
 
@@ -230,9 +215,9 @@ figcaption{
 	.author {
 		display: block;
 	}
-	li {
-		margin-bottom: 1em;
-	}
+	/*li {
+		
+	}*/
 	header, article, footer section {
 		margin-left: 5%;
 		margin-right: 5%;
@@ -279,36 +264,49 @@ figcaption{
 }
 /* Contenitore principale */
 			/* Stile per il contenitore delle card */
-	.cards-container {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 20px;
-		margin: 20px;
-	}
-
+			.cards-container {
+				display: flex; /* Abilita Flexbox */
+				flex-wrap: wrap; /* Permette di andare a capo */
+				justify-content: center; /* Centra le righe */
+				align-items: flex-start;
+				gap: 20px; /* Spazio tra le card */
+				margin: 20px;
+			}
+			
 			/* Stile della card */
-	.card {
-		width: 300px;
-		background-color: #ffffff;
-		border: 1px solid #ddd;
-		border-radius: 8px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-		text-align: center;
-		padding: 15px;
-		position: relative;
-	}
+			.card {
+				width: calc(33.33% - 20px); /* Ogni card occupa 1/3 dello spazio disponibile meno il gap */
+				background-color: #ffffff;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				text-align: center;
+				padding: 15px;
+				position: relative;
+			}
+			
+			@media (max-width: 768px) {
+				.card {
+					width: calc(50% - 20px); /* Su schermi piccoli, 2 card per riga */
+				}
+			}
+			
+			@media (max-width: 480px) {
+				.card {
+					width: calc(100% - 20px); /* Su schermi molto piccoli, 1 card per riga */
+				}
+			}
 
-	/* Nascondere la freccia del <summary> */
-	.card details summary {
-		list-style: none; /* Rimuove la freccia */
-		cursor: pointer;
-		font-weight: bold;
-		font-size: 1.2rem;
-		color: #333;
-		text-align: center;
-		padding: 10px 0;
-	}
+			/* Nascondere la freccia del <summary> */
+			.card details summary {
+				list-style: none; /* Rimuove la freccia */
+				cursor: pointer;
+				font-weight: bold;
+				font-size: 20px;
+				color: #333;
+				text-align: center;
+				padding: 10px 0;
+			}
 
 			/* Aggiungere centratura verticale */
 			.card details summary::marker {
@@ -321,7 +319,7 @@ figcaption{
 
 			.card p {
 				margin-top: 18px;
-				font-size: 1rem;
+				font-size: 20px;
 				color: #151515;
 			}
 
@@ -330,22 +328,9 @@ figcaption{
 				color: #007bff;
 			}
 
-
-			/* Media Query per adattare le card su schermi piccoli */
-			@media (max-width: 768px) {
-				.card {
-					flex: 0 1 calc(50% - 20px); /* Due card per riga su schermi più piccoli */
-				}
-			}
-
-			@media (max-width: 480px) {
-				.card {
-					flex: 0 1 100%; /* Una card per riga su schermi molto piccoli */
-				}
-			}
 			.countries-container {
 				display: flex;
-				flex-wrap: wrap;
+				flex-wrap: nowrap;
 				gap: 20px;
 				justify-content: center;
 				padding: 20px;
@@ -380,6 +365,16 @@ figcaption{
 				color: #111111;
 			}
 
+			.consumption_details {
+				margin-bottom: 3em;
+			}
 
+			.env {
+				margin-bottom: 3em;
+			}
+
+			.consumption {
+				margin-bottom: 3em;
+			}
 
 
