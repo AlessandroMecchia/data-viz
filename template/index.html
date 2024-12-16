@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Title | Data visualization course</title>
+		<meta name="description"content="Luana Centorame, Federico Gritti, Paolo Nicolet, Alessandro Mecchia">
+		<meta name="author" content="Authors' name and surname">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- allow webpage to be run in full-screen mode -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- set nav bar color -->
+		<meta name="theme-color" content="black"> <!-- Chrome, Firefox OS and Opera -->
+		<meta name="msapplication-navbutton-color" content="black"> <!-- Windows Phone -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"> <!-- iOS Safari -->
+		<link type="text/css" rel="stylesheet" href="assets/style/style.css">
+
+		<!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+    	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' /> -->
+	
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	
+		<script src="assets/script/script.js" defer></script>
+	</head>
+	<body>
+		<div id="topbar">
+			<nav>
+				<div class="go_home">
+					<a href="../" title="Go back home">
+						<span>
+							←
+						</span>
+						<span>
+							Data visualization course
+						</span>
+					</a>
+				</div>
+			</nav>
+		</div>
+		<main>
+			<header>
+				<h1>
+					Who is Mr. Pesticide?
+				</h1>
+				<h2>Understanding His Role in Global Trade and Agriculture</h2>
+				<h3>Luana Centorame, Federico Gritti, Paolo Nicolet, Alessandro Mecchia</h3>
+			</header>
+			<section class="no_margin">		
+				<img src="assets/images/prova_foto.png" id="foto" alt="Picture description">
+				<figcaption id="dv-caption">Picture description</figcaption>
+			</section>
+			<article>
+				<section id="abstract">
+					<p>
+						The European Commission define “pesticide” as something to prevent, destroy, or control a harmful organism or disease, or protect plants or plant products during production, storage and transport. 
+					</p>
+				</section>
+				<section>
+					<h1>
+						The Arsenal of Agriculture: Exploring the Types of Pesticides
+					</h1>
+					<hr>
+					<div class="cards-container">
+						<div class="card">
+							<details>
+								<summary>Herbicides</summary>
+								<p>
+									Herbicides are chemicals used to control or eliminate unwanted plants, such as weeds, by interfering with their growth or development.
+									<br><span class="example">Example:</span> Glyphosate is a widely used herbicide to control broadleaf weeds in agricultural fields.
+								</p>
+							</details>
+						</div>
+					
+						<div class="card">
+							<details>
+								<summary>Insecticides</summary>
+								<p>
+									Insecticides are chemicals designed to kill or repel insects that may damage crops or plants. They target the insects' nervous system or other vital functions.
+									<br><span class="example">Example:</span> Pyrethroids, such as permethrin, are commonly used to control mosquitoes and crop pests like aphids.
+								</p>
+							</details>
+						</div>
+					
+						<div class="card">
+							<details>
+								<summary>Fungicides</summary>
+								<p>
+									Fungicides are substances used to prevent or treat fungal infections in plants. They inhibit the growth of fungi that cause diseases such as mold, rust, or blight.
+									<br><span class="example">Example:</span> Copper sulfate is a fungicide often used to protect grapevines from mildew.
+								</p>
+							</details>
+						</div>
+					
+						<div class="card">
+							<details>
+								<summary>Bactericides</summary>
+								<p>
+									Bactericides are chemicals that kill or inhibit the growth of bacteria, protecting plants from bacterial diseases.
+									<br><span class="example">Example:</span> Streptomycin is used to treat bacterial infections in crops like tomatoes and apples.
+								</p>
+							</details>
+						</div>
+					
+						<div class="card">
+							<details>
+								<summary>Rodenticides</summary>
+								<p>
+									Rodenticides are substances used to control rodents, often by poisoning them. They help prevent damage to crops and stored food supplies.
+									<br><span class="example">Example:</span> Bromadiolone is commonly used as a rodenticide.
+								</p>
+							</details>
+						</div>
+					
+						<div class="card">
+							<details>
+								<summary>Plant Growth Regulators </summary>
+								<p>
+									Plant growth regulators are chemicals that influence the growth and development of plants. They can promote or inhibit processes such as germination, flowering, or fruiting.
+									<br><span class="example">Example:</span> Indole-3-acetic acid (IAA) is a natural plant growth regulator used to stimulate root development in cuttings.
+								</p>
+							</details>
+						</div>
+					</div>					
+					<figure>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/20556528">
+							<script src="https://public.flourish.studio/resources/embed.js"></script>
+							<noscript>
+								<img src="https://public.flourish.studio/visualisation/20556528/thumbnail" width="100%" alt="chart visualization" />
+							</noscript>
+						</div>
+						<figcaption>Data visualization caption</figcaption>
+					</figure>
+					
+					<div class="download download_big">
+						<a href="assets/dataviz/protocols/01" title="Download visualization protocol">
+							Read the visualization protocol
+						</a>
+						<a href="assets/dataviz/dataset+metadata.zip" title="Download dataset">
+							↓ Download the dataset (1MB)
+						</a>
+					</div>
+					</section>
+					<section>
+						<h1>
+							Global Pesticide Trade: The Hidden Journey Behind Agriculture's Shield
+						</h1>
+						<hr>
+						<div class="container">
+							<!-- Left Treemap -->
+							<div class="treemap">
+								<div class="flourish-embed flourish-hierarchy" data-src="visualisation/20745269">
+									<script src="https://public.flourish.studio/resources/embed.js"></script>
+									<noscript>
+										<img src="https://public.flourish.studio/visualisation/20745269/thumbnail" width="100%" alt="hierarchy visualization" />
+									</noscript>
+								</div>
+							</div>
+					
+							<!-- Right Treemap -->
+							<div class="treemap">
+								<div class="flourish-embed flourish-hierarchy" data-src="visualisation/20744792">
+									<script src="https://public.flourish.studio/resources/embed.js"></script>
+									<noscript>
+										<img src="https://public.flourish.studio/visualisation/20744792/thumbnail" width="100%" alt="hierarchy visualization" />
+									</noscript>
+								</div>
+							</div>
+					</section>
+					<h1>Pesticide Consumption: Leading Countries and Global Trends</h1>
+		
+					<!-- Panoramica breve -->
+					<p class="intro">
+						The United States, China, and Brazil are the largest consumers of pesticides, driven by agricultural, economic, and environmental needs. Below is a breakdown of each country's role and the factors influencing their heavy pesticide usage.
+					</p>
+
+					<!-- Sezione Card dei 3 Paesi -->
+					<div class="countries-container">
+						<!-- Brazil -->
+						<div class="country-card">
+							<img src="https://flagcdn.com/w40/br.png" alt="Brazil Flag" class="flag">
+							<h2>Brazil</h2>
+							<p>
+								Brazil is a major exporter of <strong>soybeans, sugarcane</strong>, and <strong>coffee</strong>. Its warm and humid climate encourages pest proliferation, leading to heavy pesticide usage, especially in regions like the Amazon Rainforest.
+							</p>
+						</div>
+
+						<!-- United States -->
+						<div class="country-card">
+							<img src="https://flagcdn.com/w40/us.png" alt="USA Flag" class="flag">
+							<h2>United States</h2>
+							<p>
+								The U.S. relies on pesticides for large-scale production of <strong>corn, soybeans, cotton</strong>, and <strong>fruits</strong>. Intensive farming ensures high yields and protects crops from pests, diseases, and weeds.
+							</p>
+						</div>
+
+						<!-- China -->
+						<div class="country-card">
+							<img src="https://flagcdn.com/w40/cn.png" alt="China Flag" class="flag">
+							<h2>China</h2>
+							<p>
+								China, the world's largest producer of <strong>rice</strong>, has increased pesticide use to meet rising food demands and combat emerging pests due to intensified agricultural production.
+							</p>
+						</div>
+					</div>
+
+					<!-- Dettagli aggiuntivi nascosti -->
+					<details>
+						<summary><strong>More about Global Pesticide Trends</strong></summary>
+						<p>
+							These countries, with growing populations and <strong>increasing food demand</strong>, need to boost agricultural productivity to ensure food security. Pesticide use is seen as a quick and effective solution to increase crop yields, reduce losses from pests and diseases, and extend the harvestable lifespan of crops.
+						</p>
+						<ul>
+							<li><strong>Brazil</strong>: Heavy reliance on pesticides due to its warm, pest-friendly environment.</li>
+							<li><strong>United States</strong>: Intensive monoculture farming drives consistent pesticide use.</li>
+							<li><strong>China</strong>: Growing food demands have led to increased agricultural intensification.</li>
+						</ul>
+						<p>
+							The continued <strong>expansion of agricultural land</strong> in regions like Brazil and Indonesia (especially for soy and oil palm cultivation) has further intensified pesticide use, often at the expense of biodiversity, particularly in deforestation hotspots like the Amazon Rainforest.
+						</p>
+					</details>
+
+					<!-- Conclusione -->
+					<section class="conclusion">
+						<h3>Environmental and Agricultural Impact</h3>
+						<p>
+							While pesticides support agricultural productivity, their intensive use raises concerns about <strong>environmental sustainability</strong>. Monoculture farming, deforestation, and the collapse of natural ecosystems exacerbate pest outbreaks, creating a vicious cycle of increasing pesticide reliance.
+						</p>
+					</section>
+
+					<section>
+						<h1>Global Trade and Consumption of Pesticides</h1>
+						<p>
+							The global pesticide trade highlights the intricate relationship between production, export, and consumption. 
+							Countries producing large volumes often dominate exports, while agricultural powerhouses rely heavily on imports to sustain their farming activities.
+							These trade dynamics ultimately manifest in the consumption patterns we observe globally.
+						</p>
+						<p>
+							Below, we delve into two key aspects of pesticide consumption:
+						</p>
+						<ol>
+							<li>
+								<strong>Top Global Consumers by Continent</strong>: Understanding how different regions contribute to global pesticide usage.
+							</li>
+							<li>
+								<strong>Country-Level Race Chart</strong>: Focusing on individual nations to identify the largest pesticide consumers and their trends over time.
+							</li>
+						</ol>
+					</section>
+					
+					<!-- Top Global Consumers by Continent -->
+					<section>
+						<h2>Top Global Consumers by Continent</h2>
+						<p>
+							This visualization highlights the major continents driving global pesticide consumption. 
+							It provides a comparative view of how different regions contribute to the global total and how these contributions have evolved over the years.
+						</p>
+						<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/20721904">
+							<script src="https://public.flourish.studio/resources/embed.js"></script>
+							<noscript>
+								<img src="https://public.flourish.studio/visualisation/20721904/thumbnail" width="100%" alt="Top Global Consumers by Continent visualization" />
+							</noscript>
+						</div>
+						<figcaption>
+							This chart displays pesticide consumption trends across continents, highlighting regional dynamics and shifts over time.
+						</figcaption>
+					</section>
+					
+					<!-- Country-Level Race Chart -->
+					<section>
+						<h2>Country-Level Race Chart: Pesticide Consumption</h2>
+						<p>
+							This bar chart race zooms in to the country level, showcasing the top pesticide-consuming nations and how their rankings have evolved.
+							The data emphasizes the role of agricultural powerhouses like the United States, China, and Brazil in global pesticide use.
+						</p>
+						<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/19926959">
+							<script src="https://public.flourish.studio/resources/embed.js"></script>
+							<noscript>
+								<img src="https://public.flourish.studio/visualisation/19926959/thumbnail" width="100%" alt="Country-Level Pesticide Consumption visualization" />
+							</noscript>
+						</div>
+						<figcaption>
+							This chart reveals the leading countries in pesticide consumption, reflecting agricultural practices and demand across the globe.
+						</figcaption>
+					</section>
+			</article>
+
+			<footer>
+				<section>
+					<div>
+						<strong>Project title</strong><br/>
+						Project subtitle<br/><br/>
+						Luana Centorame<br/>
+						Federico Gritti<br/>
+						Paolo Nicolet<br/>
+						Alessandro Mecchia<br/>
+					</div>
+					<div>
+						<strong>SUPSI</strong><br/>
+						Bachelor in Data Science and Artificial Intelligence<br/>
+						Data visualization course<br/><br/>
+						Teacher: Giovanni Profeta<br/>
+						Academic year: 2024-2025
+					</div>
+				</section>
+			</footer>
+		</main>
+	</body>
+</html>
