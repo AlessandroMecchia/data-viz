@@ -1,0 +1,4 @@
+1. Load the dataset: Read the original CSV file (`original_merged.csv`) into a Pandas DataFrame.  
+2. Select relevant columns: Identify and keep only the necessary columns: `Area`, `Year`, `Fungicides and Bactericides`, `Herbicides`, `Insecticides`, `Other Pesticides nes`, `Pesticides (total)`, `Plant Growth Regulators`, and `Rodenticides`.  
+3. Filter the dataset: Remove all columns not listed in the `columns_to_keep` list to retain only relevant data.  
+4. Save the transformed dataset: Write the filtered dataset to a new CSV file (`cleaned_dataset.csv`).  
