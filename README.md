@@ -63,5 +63,5 @@ The project includes the following components:
 SUPSI  
 Bachelor in Data Science and Artificial Intelligence
 Teacher: Giovanni Profeta
-https://dataviz-supsi.github.io/2022/
+https://dataviz-supsi.github.io/2024/
 
