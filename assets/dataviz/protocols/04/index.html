@@ -38,7 +38,7 @@
 					</a>
 				</span>
 				<h1>
-					Trends in Global Pesticide Usage by Type (1990–2025)
+					Top Global Pesticide Consumers by Country
 				</h1>
 				<h2>
 					Visualization protocol
@@ -53,7 +53,7 @@
 					<p><a href="https://www.fao.org/faostat/en/#data/RP">FAOSTAT - Pesticides Total</a></p><br/>
 
 					<h4>Dataset</h4>
-					<p>modified_flourish_long_format_exclude_total.csv</p><br/>
+					<p>modified_flourish_wide_format_countries_with_flags.csv</p><br/>
 				
 					<h4>Protocol</h4>
 					<p>Flourish + Python</p><br/>
@@ -61,13 +61,17 @@
 					<h4>Preprocessing steps:</h4>
 					<ol style="font-size: 1.3rem;">
 						<li>Load the Dataset: Read the CSV file (<code>cleaned_dataset.csv</code>) into a Pandas DataFrame.</li>
-						<li>Reshape with Melt: Use the <code>melt</code> function to reshape the DataFrame. Keep <code>Year</code> as the identifier column (<code>id_vars</code>) and transform selected pesticide-related columns (<code>value_vars</code>) into a long format with <code>Pesticide Type</code> and <code>Usage</code> columns.</li>
+						<li>Reshape with Melt: Use the <code>melt</code> function to reshape the DataFrame. Include <code>Area</code> and <code>Year</code> as identifier columns (<code>id_vars</code>) and transform selected pesticide-related columns (<code>value_vars</code>) into a long format with <code>Pesticide Type</code> and <code>Usage</code> columns.</li>
 						<li>Filter Rows: Exclude rows where the <code>Pesticide Type</code> column equals <code>'Pesticides (total)'</code>.</li>
-						<li>Pivot Data: Transform the long-format DataFrame back into a wide format with <code>Year</code> as rows and <code>Pesticide Type</code> as columns. Aggregate usage values using the <code>sum</code> function.</li>
-						<li>Save Transformed Data: Write the transformed dataset to a new CSV file (<code>modified_tableau_long_format_exclude_total.csv</code>).</li>
+						<li>Harmonize Country Names: Replace <code>China, mainland</code> and <code>Mainland</code> in the <code>Area</code> column with <code>China</code>.</li>
+						<li>Pivot Data: Transform the long-format DataFrame into a wide format with <code>Area</code> as rows and <code>Year</code> as columns. Aggregate <code>Usage</code> values using the <code>sum</code> function.</li>
+						<li>Generate Flag URLs: Create a dictionary mapping country names to their flag URLs using the ISO codes provided.</li>
+						<li>Map Flag URLs: Add a <code>Flag URL</code> column to the DataFrame by mapping the <code>Area</code> column to the flag URL dictionary.</li>
+						<li>Save Transformed Data: Write the transformed dataset with flag URLs to a new CSV file (<code>modified_tableau_wide_format_countries_with_flags.csv</code>).</li>
 					</ol>
 				</section>
 			</article>
 		</main>
 	</body>
 </html>
+

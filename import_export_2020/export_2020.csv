@@ -1,0 +1,91 @@
+Country,Year,Element,Total,Continent,alpha-3,Percentage
+Angola,2020,Export quantity,6.0,Africa,AGO,0.0076118948543590775
+Argentina,2020,Export quantity,110.0,Americas,ARG,0.13955140566324978
+Australia,2020,Export quantity,386.0,Oceania,AUS,0.4896985689637674
+Austria,2020,Export quantity,472.0,Europe,AUT,0.5988023952095809
+Bangladesh,2020,Export quantity,0.0,Asia,BGD,0.0
+Barbados,2020,Export quantity,27.0,Americas,BRB,0.03425352684461585
+Belarus,2020,Export quantity,456.0,Europe,BLR,0.57850400893129
+Belgium,2020,Export quantity,107.0,Europe,BEL,0.13574545823607023
+Belize,2020,Export quantity,2.0,Americas,BLZ,0.0025372982847863593
+Bosnia and Herzegovina,2020,Export quantity,0.0,Europe,BIH,0.0
+Brazil,2020,Export quantity,1860.0,Americas,BRA,2.3596874048513143
+Brunei Darussalam,2020,Export quantity,0.0,Asia,BRN,0.0
+Bulgaria,2020,Export quantity,41.0,Europe,BGR,0.052014614838120365
+Burundi,2020,Export quantity,0.0,Africa,BDI,0.0
+Cambodia,2020,Export quantity,2707.0,Asia,KHM,3.4342332284583375
+Canada,2020,Export quantity,0.0,Americas,CAN,0.0
+Chile,2020,Export quantity,37.0,Americas,CHL,0.04694001826854765
+Colombia,2020,Export quantity,129.0,Americas,COL,0.1636557393687202
+Costa Rica,2020,Export quantity,5.0,Americas,CRI,0.006343245711965899
+Croatia,2020,Export quantity,46.0,Europe,HRV,0.05835786055008627
+Cyprus,2020,Export quantity,5.0,Asia,CYP,0.006343245711965899
+Czechia,2020,Export quantity,24.0,Europe,CZE,0.03044757941743631
+Denmark,2020,Export quantity,17833.0,Europe,DNK,22.623820156297576
+Ecuador,2020,Export quantity,4.0,Americas,ECU,0.005074596569572719
+Egypt,2020,Export quantity,64.0,Africa,EGY,0.0811935451131635
+El Salvador,2020,Export quantity,0.0,Americas,SLV,0.0
+Estonia,2020,Export quantity,10.0,Europe,EST,0.012686491423931799
+Fiji,2020,Export quantity,0.0,Oceania,FJI,0.0
+Finland,2020,Export quantity,26.0,Europe,FIN,0.03298487770222267
+France,2020,Export quantity,14113.0,Europe,FRA,17.904445346594947
+Germany,2020,Export quantity,1942.0,Europe,DEU,2.463716634527555
+Ghana,2020,Export quantity,5.0,Africa,GHA,0.006343245711965899
+Greece,2020,Export quantity,735.0,Europe,GRC,0.9324571196589871
+Guatemala,2020,Export quantity,554.0,Americas,GTM,0.7028316248858216
+Guyana,2020,Export quantity,96.0,Americas,GUY,0.12179031766974524
+Honduras,2020,Export quantity,1.0,Americas,HND,0.0012686491423931797
+Hungary,2020,Export quantity,403.0,Europe,HUN,0.5112656043844515
+India,2020,Export quantity,9449.0,Asia,IND,11.987465746473156
+Indonesia,2020,Export quantity,6008.0,Asia,IDN,7.622044047498224
+Ireland,2020,Export quantity,193.0,Europe,IRL,0.2448492844818837
+Italy,2020,Export quantity,4908.0,Europe,ITA,6.226529990865727
+Jamaica,2020,Export quantity,14.0,Americas,JAM,0.017761087993504517
+Japan,2020,Export quantity,1.0,Asia,JPN,0.0012686491423931797
+Jordan,2020,Export quantity,10.0,Asia,JOR,0.012686491423931799
+Kenya,2020,Export quantity,129.0,Africa,KEN,0.1636557393687202
+Latvia,2020,Export quantity,0.0,Europe,LVA,0.0
+Lesotho,2020,Export quantity,0.0,Africa,LSO,0.0
+Lithuania,2020,Export quantity,1.0,Europe,LTU,0.0012686491423931797
+Luxembourg,2020,Export quantity,0.0,Europe,LUX,0.0
+Madagascar,2020,Export quantity,1.0,Africa,MDG,0.0012686491423931797
+Malaysia,2020,Export quantity,632.0,Asia,MYS,0.8017862579924895
+Malta,2020,Export quantity,0.0,Europe,MLT,0.0
+Mauritius,2020,Export quantity,4.0,Africa,MUS,0.005074596569572719
+Mexico,2020,Export quantity,97.0,Americas,MEX,0.12305896681213845
+Morocco,2020,Export quantity,3.0,Africa,MAR,0.0038059474271795388
+Myanmar,2020,Export quantity,705.0,Asia,MMR,0.8943976453871917
+New Zealand,2020,Export quantity,18.0,Oceania,NZL,0.022835684563077236
+Nicaragua,2020,Export quantity,0.0,Americas,NIC,0.0
+Nigeria,2020,Export quantity,27.0,Africa,NGA,0.03425352684461585
+Norway,2020,Export quantity,3.0,Europe,NOR,0.0038059474271795388
+Oman,2020,Export quantity,18.0,Asia,OMN,0.022835684563077236
+Panama,2020,Export quantity,15.0,Americas,PAN,0.019029737135897697
+Paraguay,2020,Export quantity,47.0,Americas,PRY,0.05962650969247945
+Peru,2020,Export quantity,1.0,Americas,PER,0.0012686491423931797
+Philippines,2020,Export quantity,0.0,Asia,PHL,0.0
+Portugal,2020,Export quantity,84.0,Europe,PRT,0.10656652796102711
+Qatar,2020,Export quantity,2.0,Asia,QAT,0.0025372982847863593
+Romania,2020,Export quantity,81.0,Europe,ROU,0.10276058053384757
+Russian Federation,2020,Export quantity,186.0,Europe,RUS,0.23596874048513145
+Saudi Arabia,2020,Export quantity,6.0,Asia,SAU,0.0076118948543590775
+Serbia,2020,Export quantity,6.0,Europe,SRB,0.0076118948543590775
+Singapore,2020,Export quantity,0.0,Asia,SGP,0.0
+Slovakia,2020,Export quantity,0.0,Europe,SVK,0.0
+Slovenia,2020,Export quantity,28.0,Europe,SVN,0.03552217598700903
+South Africa,2020,Export quantity,157.0,Africa,ZAF,0.19917791535572923
+Spain,2020,Export quantity,3269.0,Europe,ESP,4.147214046483304
+Sri Lanka,2020,Export quantity,1.0,Asia,LKA,0.0012686491423931797
+Sweden,2020,Export quantity,6.0,Europe,SWE,0.0076118948543590775
+Switzerland,2020,Export quantity,10.0,Europe,CHE,0.012686491423931799
+Thailand,2020,Export quantity,1425.0,Asia,THA,1.807825027910281
+Togo,2020,Export quantity,1.0,Africa,TGO,0.0012686491423931797
+Türkiye,2020,Export quantity,278.0,Asia,TUR,0.3526844615853039
+Uganda,2020,Export quantity,1.0,Africa,UGA,0.0012686491423931797
+Ukraine,2020,Export quantity,245.0,Europe,UKR,0.31081903988632903
+United Arab Emirates,2020,Export quantity,147.0,Asia,ARE,0.1864914239317974
+United Kingdom of Great Britain and Northern Ireland,2020,Export quantity,58.0,Europe,GBR,0.07358165025880442
+United States of America,2020,Export quantity,8096.0,Americas,USA,10.270983456815182
+Uruguay,2020,Export quantity,173.0,Americas,URY,0.2194763016340201
+Viet Nam,2020,Export quantity,67.0,Asia,VNM,0.08499949254034304
+Zambia,2020,Export quantity,7.0,Africa,ZMB,0.008880543996752258

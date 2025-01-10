@@ -1,0 +1,22 @@
+# Timestamp
+2020
+
+# Data source
+FAOSTAT - Pesticides Trade:
+https://www.fao.org/faostat/en/#data/RT
+
+ISO-3166-Countries-with-Regional-Codes::
+https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv
+
+# Dataset
+	import_2020.csv
+	export_2020.csv
+	
+# Protocol 
+1. Added a new column named "Total", which contains the sum of all pesticide quantities for each row.  
+2. Removed all individual pesticide columns and any other irrelevant or unnecessary columns.  
+3. Merged additional information such as "name", "region", and "alpha-3" codes from the `ISO-3166-Countries.csv` dataset.  
+4. Renamed "Area" to "Country" and "region" to "Continent" and removed "name" for better clarity and consistency.  
+5. Calculated the percentage contribution of each country's total pesticide quantity to the overall total quantity, adding this as a new column.
+6. Filtered the data to include only records from the year 2020.
+7. Divided the dataset into two subset: one containing only import data and the other containing only export data.

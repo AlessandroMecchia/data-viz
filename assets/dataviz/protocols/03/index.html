@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Page title | Data visualization course</title>
-		<meta name="description"content="Project description">
-		<meta name="author" content="Authors' name and ssurname">
+		<meta name="description" content="Project description">
+		<meta name="author" content="Authors' name and surname">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- allow webpage to be run in full-screen mode -->
 		<meta name="mobile-web-app-capable" content="yes">
@@ -13,7 +13,7 @@
 		<meta name="theme-color" content="black"> <!-- Chrome, Firefox OS and Opera -->
 		<meta name="msapplication-navbutton-color" content="black"> <!-- Windows Phone -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="black"> <!-- iOS Safari -->
-		<link type="text/css" rel="stylesheet" href="../../../style/style.css">	
+		<link type="text/css" rel="stylesheet" href="../../../style/style.css">
 	</head>
 	<body>
 		<div id="topbar">
@@ -38,7 +38,7 @@
 					</a>
 				</span>
 				<h1>
-					Title of the data visualization n. 3
+					Top Global Pesticide Consumers by Continent
 				</h1>
 				<h2>
 					Visualization protocol
@@ -47,30 +47,25 @@
 			<article>
 				<section>
 					<h4>Timestamp</h4>
-					<p>Date</p><br/>
+					<p>1990-2022</p><br/>
 					
 					<h4>Data source</h4>
-					<p><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv">Name of the data source</a></p><br/>
+					<p><a href="https://www.fao.org/faostat/en/#data/RP">FAOSTAT - Pesticides Total</a></p><br/>
 
 					<h4>Dataset</h4>
-					<p>
-						<a href="../../dataset+metadata.zip">Download the dataset and the metadata</a>
-					</p><br/>
-					
+					<p>modified_flourish_wide_format_countries_with_flags.csv</p><br/>
+				
 					<h4>Protocol</h4>
+					<p>Flourish + Python</p><br/>
+
+					<h4>Preprocessing steps:</h4>
 					<ol style="font-size: 1.3rem;">
-						<li>Action n. 1</li>
-						<li>Action n. 2</li>
-						<li>Action n. 3</li>
-						<li>Action n. 4</li>
-						<li>Action n. 5</li>
-						<li>Action n. 6</li>
-						<li>Action n. 7</li>
-						<li>Action n. 8</li>
-						<li>Action n. 9</li>
-						<li>Action n. 10</li>
+						<li>Load the dataset: Read the CSV file (<code>modified_tableau_wide_format_countries_with_flags.csv</code>) into a Pandas DataFrame.</li>
+						<li>Map countries to continents: Create a new <code>Continent</code> column by mapping country names in the <code>Area</code> column to their corresponding continent using the <code>country_to_continent</code> dictionary.</li>
+						<li>Drop missing mappings: Remove rows where the <code>Continent</code> mapping is missing (i.e., <code>NaN</code> in the <code>Continent</code> column).</li>
+						<li>Aggregate data by continent: Group the dataset by the <code>Continent</code> column and sum all numeric columns.</li>
+						<li>Save the transformed dataset: Write the aggregated dataset to a new CSV file at the specified output path.</li>
 					</ol>
-					
 				</section>
 			</article>
 		</main>

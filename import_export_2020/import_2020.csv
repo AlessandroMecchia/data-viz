@@ -1,0 +1,145 @@
+Country,Year,Element,Total,Continent,alpha-3,Percentage
+Albania,2020,Import quantity,27.0,Europe,ALB,0.03340550572223941
+Andorra,2020,Import quantity,0.0,Europe,AND,0.0
+Angola,2020,Import quantity,7.0,Africa,AGO,0.008660686668728735
+Anguilla,2020,Import quantity,0.0,Americas,AIA,0.0
+Antigua and Barbuda,2020,Import quantity,2.0,Americas,ATG,0.0024744819053510673
+Argentina,2020,Import quantity,2000.0,Americas,ARG,2.4744819053510674
+Aruba,2020,Import quantity,5.0,Americas,ABW,0.006186204763377668
+Australia,2020,Import quantity,163.0,Oceania,AUS,0.20167027528611198
+Austria,2020,Import quantity,137.0,Europe,AUT,0.1695020105165481
+Azerbaijan,2020,Import quantity,136.0,Asia,AZE,0.16826476956387257
+Bahamas,2020,Import quantity,11.0,Americas,BHS,0.01360965047943087
+Bangladesh,2020,Import quantity,1026.0,Asia,BGD,1.2694092174450975
+Barbados,2020,Import quantity,23.0,Americas,BRB,0.02845654191153727
+Belarus,2020,Import quantity,108.0,Europe,BLR,0.13362202288895764
+Belgium,2020,Import quantity,242.0,Europe,BEL,0.29941231054747913
+Belize,2020,Import quantity,0.0,Americas,BLZ,0.0
+Benin,2020,Import quantity,23.0,Africa,BEN,0.02845654191153727
+Bermuda,2020,Import quantity,0.0,Americas,BMU,0.0
+Bhutan,2020,Import quantity,2.0,Asia,BTN,0.0024744819053510673
+Bosnia and Herzegovina,2020,Import quantity,4.0,Europe,BIH,0.0049489638107021346
+Botswana,2020,Import quantity,23.0,Africa,BWA,0.02845654191153727
+Brazil,2020,Import quantity,38262.0,Americas,BRA,47.33931333127126
+Brunei Darussalam,2020,Import quantity,52.0,Asia,BRN,0.06433652953912775
+Bulgaria,2020,Import quantity,179.0,Europe,BGR,0.2214661305289205
+Burundi,2020,Import quantity,4.0,Africa,BDI,0.0049489638107021346
+Cambodia,2020,Import quantity,388.0,Asia,KHM,0.480049489638107
+Canada,2020,Import quantity,304.0,Americas,CAN,0.3761212496133622
+Cayman Islands,2020,Import quantity,180.0,Americas,CYM,0.22270337148159605
+Chile,2020,Import quantity,85.0,Americas,CHL,0.10516548097742036
+Colombia,2020,Import quantity,1290.0,Americas,COL,1.5960408289514383
+Comoros,2020,Import quantity,1.0,Africa,COM,0.0012372409526755336
+Cook Islands,2020,Import quantity,1.0,Oceania,COK,0.0012372409526755336
+Costa Rica,2020,Import quantity,149.0,Americas,CRI,0.1843489019486545
+Croatia,2020,Import quantity,77.0,Europe,HRV,0.09526755335601608
+Cuba,2020,Import quantity,4.0,Americas,CUB,0.0049489638107021346
+Curaçao,2020,Import quantity,4.0,Americas,CUW,0.0049489638107021346
+Czechia,2020,Import quantity,452.0,Europe,CZE,0.5592329106093412
+Denmark,2020,Import quantity,152.0,Europe,DNK,0.1880606248066811
+Dominican Republic,2020,Import quantity,87.0,Americas,DOM,0.1076399628827714
+Ecuador,2020,Import quantity,691.0,Americas,ECU,0.8549334982987936
+El Salvador,2020,Import quantity,40.0,Americas,SLV,0.049489638107021346
+Estonia,2020,Import quantity,24.0,Europe,EST,0.029693782864212804
+Eswatini,2020,Import quantity,4.0,Africa,SWZ,0.0049489638107021346
+Ethiopia,2020,Import quantity,284.0,Africa,ETH,0.3513764305598515
+Faroe Islands,2020,Import quantity,0.0,Europe,FRO,0.0
+Fiji,2020,Import quantity,1.0,Oceania,FJI,0.0012372409526755336
+Finland,2020,Import quantity,18.0,Europe,FIN,0.022270337148159604
+France,2020,Import quantity,6398.0,Europe,FRA,7.915867615218064
+French Polynesia,2020,Import quantity,1.0,Oceania,PYF,0.0012372409526755336
+Gabon,2020,Import quantity,4.0,Africa,GAB,0.0049489638107021346
+Germany,2020,Import quantity,1085.0,Europe,DEU,1.342406433652954
+Gibraltar,2020,Import quantity,2.0,Europe,GIB,0.0024744819053510673
+Greece,2020,Import quantity,996.0,Europe,GRC,1.2322919888648314
+Guatemala,2020,Import quantity,1.0,Americas,GTM,0.0012372409526755336
+Guyana,2020,Import quantity,0.0,Americas,GUY,0.0
+Honduras,2020,Import quantity,82.0,Americas,HND,0.10145375811939374
+Hungary,2020,Import quantity,950.0,Europe,HUN,1.175378905041757
+Iceland,2020,Import quantity,0.0,Europe,ISL,0.0
+India,2020,Import quantity,592.0,Asia,IND,0.7324466439839159
+Indonesia,2020,Import quantity,348.0,Asia,IDN,0.4305598515310856
+Iraq,2020,Import quantity,192.0,Asia,IRQ,0.23755026291370243
+Ireland,2020,Import quantity,138.0,Europe,IRL,0.17073925146922364
+Italy,2020,Import quantity,2990.0,Europe,ITA,3.6993504484998456
+Jamaica,2020,Import quantity,0.0,Americas,JAM,0.0
+Japan,2020,Import quantity,382.0,Asia,JPN,0.47262604392205376
+Jordan,2020,Import quantity,9.0,Asia,JOR,0.011135168574079802
+Kazakhstan,2020,Import quantity,105.0,Asia,KAZ,0.12991030003093104
+Kenya,2020,Import quantity,53.0,Africa,KEN,0.06557377049180328
+Kuwait,2020,Import quantity,19.0,Asia,KWT,0.023507578100835137
+Kyrgyzstan,2020,Import quantity,29.0,Asia,KGZ,0.035879987627590475
+Lao People's Democratic Republic,2020,Import quantity,480.0,Asia,LAO,0.5938756572842562
+Latvia,2020,Import quantity,146.0,Europe,LVA,0.1806371790906279
+Lebanon,2020,Import quantity,11.0,Asia,LBN,0.01360965047943087
+Lesotho,2020,Import quantity,21.0,Africa,LSO,0.025982060006186202
+Libya,2020,Import quantity,3.0,Africa,LBY,0.0037117228580266005
+Lithuania,2020,Import quantity,185.0,Europe,LTU,0.2288895762449737
+Luxembourg,2020,Import quantity,2.0,Europe,LUX,0.0024744819053510673
+Malawi,2020,Import quantity,57.0,Africa,MWI,0.07052273430250541
+Malaysia,2020,Import quantity,488.0,Asia,MYS,0.6037735849056604
+Maldives,2020,Import quantity,45.0,Asia,MDV,0.05567584287039901
+Malta,2020,Import quantity,28.0,Europe,MLT,0.03464274667491494
+Mauritania,2020,Import quantity,68.0,Africa,MRT,0.08413238478193628
+Mexico,2020,Import quantity,250.0,Americas,MEX,0.3093102381688834
+Montenegro,2020,Import quantity,1.0,Europe,MNE,0.0012372409526755336
+Montserrat,2020,Import quantity,0.0,Americas,MSR,0.0
+Mozambique,2020,Import quantity,5.0,Africa,MOZ,0.006186204763377668
+Myanmar,2020,Import quantity,590.0,Asia,MMR,0.7299721620785649
+Namibia,2020,Import quantity,32.0,Africa,NAM,0.039591710485617077
+Nauru,2020,Import quantity,7.0,Oceania,NRU,0.008660686668728735
+Nepal,2020,Import quantity,25.0,Asia,NPL,0.03093102381688834
+New Caledonia,2020,Import quantity,14.0,Oceania,NCL,0.01732137333745747
+New Zealand,2020,Import quantity,29.0,Oceania,NZL,0.035879987627590475
+Nicaragua,2020,Import quantity,4.0,Americas,NIC,0.0049489638107021346
+Niger,2020,Import quantity,40.0,Africa,NER,0.049489638107021346
+Niue,2020,Import quantity,0.0,Oceania,NIU,0.0
+North Macedonia,2020,Import quantity,35.0,Europe,MKD,0.04330343334364367
+Norway,2020,Import quantity,12.0,Europe,NOR,0.014846891432106402
+Oman,2020,Import quantity,3.0,Asia,OMN,0.0037117228580266005
+Pakistan,2020,Import quantity,166.0,Asia,PAK,0.20538199814413857
+Panama,2020,Import quantity,1.0,Americas,PAN,0.0012372409526755336
+Papua New Guinea,2020,Import quantity,10.0,Oceania,PNG,0.012372409526755336
+Paraguay,2020,Import quantity,1324.0,Americas,PRY,1.6381070213424065
+Peru,2020,Import quantity,230.0,Americas,PER,0.28456541911537275
+Philippines,2020,Import quantity,3159.0,Asia,PHL,3.908444169502011
+Poland,2020,Import quantity,1351.0,Europe,POL,1.6715125270646458
+Portugal,2020,Import quantity,541.0,Europe,PRT,0.6693473553974636
+Qatar,2020,Import quantity,35.0,Asia,QAT,0.04330343334364367
+Romania,2020,Import quantity,767.0,Europe,ROU,0.9489638107021343
+Russian Federation,2020,Import quantity,1641.0,Europe,RUS,2.0303124033405506
+Saint Lucia,2020,Import quantity,11.0,Americas,LCA,0.01360965047943087
+Saint Vincent and the Grenadines,2020,Import quantity,1.0,Americas,VCT,0.0012372409526755336
+Samoa,2020,Import quantity,0.0,Oceania,WSM,0.0
+Saudi Arabia,2020,Import quantity,138.0,Asia,SAU,0.17073925146922364
+Serbia,2020,Import quantity,9.0,Europe,SRB,0.011135168574079802
+Singapore,2020,Import quantity,3.0,Asia,SGP,0.0037117228580266005
+Sint Maarten (Dutch part),2020,Import quantity,18.0,Americas,SXM,0.022270337148159604
+Slovakia,2020,Import quantity,83.0,Europe,SVK,0.10269099907206929
+Slovenia,2020,Import quantity,52.0,Europe,SVN,0.06433652953912775
+Solomon Islands,2020,Import quantity,12.0,Oceania,SLB,0.014846891432106402
+South Sudan,2020,Import quantity,1.0,Africa,SSD,0.0012372409526755336
+Spain,2020,Import quantity,1665.0,Europe,ESP,2.0600061862047636
+Sri Lanka,2020,Import quantity,4.0,Asia,LKA,0.0049489638107021346
+Sweden,2020,Import quantity,220.0,Europe,SWE,0.2721930095886174
+Switzerland,2020,Import quantity,61.0,Europe,CHE,0.07547169811320754
+Syrian Arab Republic,2020,Import quantity,11.0,Asia,SYR,0.01360965047943087
+Thailand,2020,Import quantity,826.0,Asia,THA,1.0219610269099908
+Timor-Leste,2020,Import quantity,19.0,Asia,TLS,0.023507578100835137
+Tonga,2020,Import quantity,15.0,Oceania,TON,0.018558614290133005
+Trinidad and Tobago,2020,Import quantity,109.0,Americas,TTO,0.13485926384163316
+Turkmenistan,2020,Import quantity,18.0,Asia,TKM,0.022270337148159604
+Turks and Caicos Islands,2020,Import quantity,1.0,Americas,TCA,0.0012372409526755336
+Tuvalu,2020,Import quantity,0.0,Oceania,TUV,0.0
+Türkiye,2020,Import quantity,32.0,Asia,TUR,0.039591710485617077
+Uganda,2020,Import quantity,121.0,Africa,UGA,0.14970615527373957
+Ukraine,2020,Import quantity,2894.0,Europe,UKR,3.580575317042994
+United Arab Emirates,2020,Import quantity,309.0,Asia,ARE,0.3823074543767399
+United Kingdom of Great Britain and Northern Ireland,2020,Import quantity,893.0,Europe,GBR,1.1048561707392515
+United States of America,2020,Import quantity,169.0,Americas,USA,0.20909372100216517
+Uruguay,2020,Import quantity,43.0,Americas,URY,0.05320136096504794
+Uzbekistan,2020,Import quantity,60.0,Asia,UZB,0.07423445716053202
+Vanuatu,2020,Import quantity,25.0,Oceania,VUT,0.03093102381688834
+Viet Nam,2020,Import quantity,144.0,Asia,VNM,0.17816269718527683
+Zambia,2020,Import quantity,0.0,Africa,ZMB,0.0
+Zimbabwe,2020,Import quantity,4.0,Africa,ZWE,0.0049489638107021346
