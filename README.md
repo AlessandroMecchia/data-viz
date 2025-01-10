@@ -58,6 +58,11 @@ The project includes the following components:
 ### **3. Assets**
 - Images and other static resources are stored in the `assets/` folder.
 
+### **4. Data Preprocessing Scripts**
+- Located in the `preprocessing/` folder:
+  - `dataset_cleaner.py`: Script for cleaning and preprocessing raw datasets.
+  - `extract_countries.py`: Script for mapping all the countries
+
 
 # Data visualization course
 SUPSI  
