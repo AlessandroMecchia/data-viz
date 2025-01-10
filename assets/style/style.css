@@ -200,6 +200,18 @@ figcaption{
 	color: black;
 }
 
+.download-special {
+	display: flex; /* Applica Flexbox al contenitore */
+	gap: 15em; /* Spazio tra i link */
+}
+
+.download-special a {
+	text-decoration: underline;
+	color: gray;
+	margin-bottom: 1.5em;
+	margin-top: 1em
+}
+
 
 
 /* ---- tablet version -----*/
@@ -236,6 +248,13 @@ figcaption{
 	.download_small {
 		margin: 0;
 	}
+	.download-special {
+		display: flex;
+		justify-content: space-between;
+		margin: 1rem 5%;
+	}
+	
+	
 	figcaption{
 		padding: 0%;
 	}
@@ -366,10 +385,11 @@ figcaption{
 			}
 
 			.consumption_details {
-				margin-bottom: 3em;
+				margin-bottom:3em;
 			}
 
 			.env {
+				margin-top: 3em;
 				margin-bottom: 3em;
 			}
 
@@ -377,4 +397,7 @@ figcaption{
 				margin-bottom: 3em;
 			}
 
+			.space {
+				margin-bottom: 2em;
+			}
 
